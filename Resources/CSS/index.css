@@ -16,3 +16,10 @@ header .container{
 header .container h1{
     font-family: "bebas neue";
 }
+
+
+@media only screen and (max-width:768px){
+    #navmobile{
+        display: none;
+    }
+}
