@@ -29,3 +29,9 @@ header #menu{
         display: none;
     }
 }
+
+/*main section*/
+
+main{
+    background-color: darkolivegreen;
+}
