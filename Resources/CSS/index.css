@@ -1,0 +1,18 @@
+/*universal section*/
+
+
+
+/*Header Section*/
+
+
+header{
+    background-color: rgb(190, 190, 190);
+    height: 100px;
+}
+header .container{
+    padding-top: 25px;
+}
+
+header .container h1{
+    font-family: "bebas neue";
+}
