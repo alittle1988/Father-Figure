@@ -59,7 +59,7 @@ main{
     background-image: url(../Resources/Images/journel.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(223, 219, 219);
+    color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
 }
@@ -70,7 +70,7 @@ main{
     background-repeat: no-repeat;
     border: 10px solid white;
     margin: 15px;
-    color: rgb(223, 219, 219);
+    color: white;
     box-shadow: 5px 5px 10px black;
 }
 
@@ -78,7 +78,7 @@ main{
     background-image: url(../Resources/Images/grass\ area.jpeg);
     border: 10px solid white;
     margin: 15px;
-    color:rgb(223, 219, 219);
+    color:white;
     box-shadow: 5px 5px 10px black;
 }
 
@@ -89,7 +89,7 @@ main{
     background-position: center;
     border: 10px solid white;
     margin: 15px;
-    color: rgb(223, 219, 219);
+    color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
 }
@@ -100,7 +100,7 @@ main{
     background-image: url(../Resources/Images/wooden\ chest.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(223, 219, 219);
+    color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
 }
@@ -112,7 +112,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:0 25%;
-    color: rgb(223, 219, 219);
+    color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
 }
