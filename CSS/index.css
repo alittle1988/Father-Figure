@@ -44,18 +44,13 @@ main{
     top: 100px;
 }
 
-
-    
-    
-
-
 #center{
     width: 100%;
 }
 
 #blog{
     border: 10px solid white;
-    margin:15px;
+    margin:15px 0 15px 15px;
     background-image: url(../Resources/Images/journel.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,31 +83,47 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     border: 10px solid white;
-    margin: 15px;
     color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
+    margin-right: 15px;
 }
 
 #whyblog{
     border: 10px solid white;
-    margin:15px;
     background-image: url(../Resources/Images/wooden\ chest.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
+    
 }
 
 #dadtime{
     border: 10px solid white;
-    margin:15px;
+   
     background-image: url(../Resources/Images/dadtime.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:0 25%;
     color: white;
     padding: 50px 0;
+    box-shadow: 5px 5px 10px black;
+    margin-right: 15px;
+}
+
+#secondrow{
+    margin: 0 15px;
+}
+
+#licenter{
+    list-style-position: inside;
+}
+
+#img{
+    width: 98%;
+    border: 10px solid white;
+    margin: 15px;
     box-shadow: 5px 5px 10px black;
 }
