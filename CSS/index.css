@@ -6,8 +6,13 @@
 
 
 header{
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(230, 224, 224);
     height: 100px;
+    border: 4px solid white;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
 }
 header .container-fluid{
     padding: 25px;
@@ -33,5 +38,81 @@ header #menu{
 /*main section*/
 
 main{
-    background-color: darkolivegreen;
+    background-color: rgb(203, 224, 248);
+    border: 4px solid white;
+    position: relative;
+    top: 100px;
+}
+
+
+    
+    
+
+
+#center{
+    width: 100%;
+}
+
+#blog{
+    border: 10px solid white;
+    margin:15px;
+    background-image: url(../Resources/Images/journel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(223, 219, 219);
+    padding: 50px 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+#healthysnacks{
+    background-image: url(../Resources/Images/healthysnacks.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    margin: 15px;
+    color: rgb(223, 219, 219);
+    box-shadow: 5px 5px 10px black;
+}
+
+#activities{
+    background-image: url(../Resources/Images/grass\ area.jpeg);
+    border: 10px solid white;
+    margin: 15px;
+    color:rgb(223, 219, 219);
+    box-shadow: 5px 5px 10px black;
+}
+
+#parks{
+    background-image: url(https://images.unsplash.com/photo-1552537595-b30edb7afd9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 10px solid white;
+    margin: 15px;
+    color: rgb(223, 219, 219);
+    padding: 50px 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+#whyblog{
+    border: 10px solid white;
+    margin:15px;
+    background-image: url(../Resources/Images/wooden\ chest.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(223, 219, 219);
+    padding: 50px 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+#dadtime{
+    border: 10px solid white;
+    margin:15px;
+    background-image: url(../Resources/Images/dadtime.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0 25%;
+    color: rgb(223, 219, 219);
+    padding: 50px 0;
+    box-shadow: 5px 5px 10px black;
 }
