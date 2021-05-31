@@ -79,20 +79,19 @@ main{
     box-shadow: 5px 5px 10px black;
 }
 
-button{
-    font-size: 30px;
+#detaildiv{
+    padding-top: 13px;
 }
 
 #parks{
     background-image: url(https://images.unsplash.com/photo-1552537595-b30edb7afd9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
     background-size: cover;
+    background-position: 0 60%;
     background-repeat: no-repeat;
-    background-position: center;
     border: 10px solid white;
+    margin: 15px;
     color: white;
-    padding: 70px 0 40px 0;
     box-shadow: 5px 5px 10px black;
-    margin-right: 15px;
 }
 
 #whyblog{
@@ -108,7 +107,6 @@ button{
 
 #dadtime{
     border: 10px solid white;
-   
     background-image: url(../Resources/Images/dadtime.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +118,7 @@ button{
 }
 
 #secondrow{
-    margin: 0 15px;
+    margin:auto;
 }
 
 #licenter{
