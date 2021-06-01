@@ -112,7 +112,7 @@ main{
     color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
-    margin-right: 15px;
+    margin: 15px;
 }
 
 #secondrow{
@@ -124,8 +124,8 @@ main{
 }
 
 #img{
-    width: 98%;
+    width: 100%;
     border: 10px solid white;
-    margin: 15px;
+    margin-top: 15px;
     box-shadow: 5px 5px 10px black;
 }
