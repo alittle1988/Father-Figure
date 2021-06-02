@@ -135,14 +135,14 @@ header #menu{
 /*about me page*/
 
 #mainabout{
-    
+    background-color: rgb(203, 224, 248);
     border: 4px solid white;
     position: relative;
    
 }
 
 
-    /*header section*/
+    /*jumbotron section*/
 
 #aboutmeheader{
     background-image: url(../Resources/Images/IMG_1882.jpeg);
@@ -161,7 +161,7 @@ header #menu{
 /*body section*/
 
 
-img{
+#aboutmeimg{
     width: 100%;
     border: 10px solid white;
     border-radius: 3%;
@@ -171,4 +171,29 @@ img{
 #aboutmepara{
     padding-top: 25px;
 
+}
+
+/*Family page*/
+
+#mainfamily{
+    background-color: rgb(203, 224, 248);
+    border: 4px solid white;
+    position: relative;
+   
+}
+
+/*jumbotron section*/
+
+
+#familyheader{
+    background-image: url(../Resources/Images/family.jpeg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 300px;
+    background-color:rgb(203, 224, 248);
+}
+
+#familytitle{
+    text-shadow: 3px 3px black;
+    color: white;
 }
