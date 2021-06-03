@@ -130,6 +130,13 @@ header #menu{
     box-shadow: 5px 5px 10px black;
 }
 
+#my-carousel{
+    border: 10px solid white;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px black;
+    margin: 15px;
+}
+
 
 
 /*about me page*/
