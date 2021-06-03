@@ -204,3 +204,27 @@ header #menu{
     text-shadow: 3px 3px black;
     color: white;
 }
+
+#familyimg{
+    width: 100%;
+    border: 10px solid white;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#familyimg2ndrow{
+    max-height: 360px;
+    width: 100%;
+    border: 10px solid white;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#family2ndrow{
+    padding-top: 30px;
+    
+}
+
+#familydescrip{
+    padding:20px 0;
+}
