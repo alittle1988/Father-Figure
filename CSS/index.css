@@ -99,6 +99,7 @@ header #menu{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    box-shadow: 5px 5px 10px black;
     
     
 }
