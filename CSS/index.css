@@ -98,8 +98,7 @@ header #menu{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 50px 0;
-    box-shadow: 5px 5px 10px black;
+    
     
 }
 
@@ -246,6 +245,67 @@ header #menu{
 }
 
 
+/*blog section*/
+#mainblog{
+    background-color: rgb(203, 224, 248);
+    border: 4px solid white;
+    position: relative;
+    top: 50px;
+   
+}
+
+#blogpagediv{
+    padding-top: 25px;
+}
+
+#blogpage{
+    background-image: url(../Resources/Images/pencil.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -30%  45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 25px 0;
+
+    
+   
+}
+
+#theblog{
+    background-image: url(../Resources/Images/the\ blog\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 15px;
+    font-size: 25px;
+}
+
+#blogs{
+    background-image: url(../Resources/Images/grandfatherclock.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 0;
+}
+
+#dadtime2{
+    background-image: url(../Resources/Images/dadtime2.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 0;
+}
 /*footer section*/
 
 footer{
