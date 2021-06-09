@@ -68,6 +68,7 @@ header #menu{
     margin: 15px;
     color: white;
     box-shadow: 5px 5px 10px black;
+    font-size: 25px;
 }
 
 #activities{
@@ -91,6 +92,10 @@ header #menu{
     margin: 15px;
     color: white;
     box-shadow: 5px 5px 10px black;
+}
+
+#mainLI{
+    font-size: 25px;
 }
 
 #whyblog{
