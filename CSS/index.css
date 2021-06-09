@@ -153,6 +153,8 @@ header #menu{
 }
 .carousel-inner img{
    max-height: 500px;
+   position: relative;
+   bottom: 90px;
 }
 
 
