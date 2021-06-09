@@ -100,7 +100,8 @@ header #menu{
     background-size: cover;
     color: white;
     box-shadow: 5px 5px 10px black;
-    
+    padding: 50px 0;
+    margin: 15px;
     
 }
 
@@ -290,6 +291,10 @@ header #menu{
     box-shadow: 5px 5px 10px black;
     padding: 50px 15px;
     font-size: 25px;
+}
+
+#linkgone{
+    pointer-events: auto;
 }
 
 #blogs{
