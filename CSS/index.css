@@ -248,6 +248,9 @@ header #menu{
     padding:20px 0;
 }
 
+#mycarouselimg{
+    max-height: 340px;
+}
 
 /*blog section*/
 #mainblog{
