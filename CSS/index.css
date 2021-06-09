@@ -116,6 +116,9 @@ header #menu{
     box-shadow: 5px 5px 10px black;
     margin: 15px;
 }
+#dadtimeP{
+    font-size: 25px;
+}
 
 #secondrow{
     margin:auto;
