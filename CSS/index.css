@@ -130,17 +130,21 @@ header #menu{
 }
 
 #img{
-    width: 100%;
     border: 10px solid white;
-    margin-top: 15px;
+   
     box-shadow: 5px 5px 10px black;
 }
 
 #my-carousel{
     
-    border: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    margin-top: 15px;
     box-shadow: 5px 5px 10px black;
-    margin: 15px;
+    margin: auto;
+    max-width: 90%;
 }
 
 .carousel-inner{
