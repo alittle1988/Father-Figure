@@ -243,10 +243,14 @@ header #menu{
 }
 
 #aboutmeimg2{
-    width: 550px;
+    width: 75%;
     box-shadow: 5px 5px 10px black;
     border: 10px solid white;
-    margin: 15px;
+}
+
+#aboutmep2{
+    margin-top: 25px;
+    
 }
 
 /*jumbotron section*/
