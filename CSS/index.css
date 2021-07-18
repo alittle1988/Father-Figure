@@ -243,13 +243,14 @@ header #menu{
 }
 
 #aboutmeimg2{
-    width: 75%;
+    width: 50%;
     box-shadow: 5px 5px 10px black;
     border: 10px solid white;
 }
 
 #aboutmep2{
     margin-top: 25px;
+    width: 50%;
     
 }
 
