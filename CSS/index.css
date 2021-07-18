@@ -11,20 +11,16 @@ header{
     top:0;
     z-index: 100;
     width: 100%;
+    font-family: "fuggles";
+    font-size: 2rem;
 }
 header .container-fluid{
     padding: 25px;
 }
- 
-header .container-fluid h1{
-    font-family: "Fuggles","bebas neue";
-    word-spacing: 25px;
-    letter-spacing: 3px;
-}
-
 header #menu{
     width: 50%;
     flex-wrap: nowrap;
+    
 }
 
 
