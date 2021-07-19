@@ -40,7 +40,7 @@ header #menu{
     background-color: rgb(203, 224, 248);
     border: 4px solid white;
     position: relative;
-    top:50px;
+    top:106px;
 }
 
 #center{
@@ -178,6 +178,14 @@ header #menu{
     top: 50px;
    }
    */
+
+#mainbody{
+    
+    border: 4px solid white;
+    position: relative;
+    top:106px;
+}
+
  #mainabout2{
      background-image: url(../Resources/Images/family.jpeg);
      height: 450px;
@@ -302,7 +310,7 @@ header #menu{
     background-color: rgb(203, 224, 248);
     border: 4px solid white;
     position: relative;
-    top: 50px;
+    top: 106px;
    
 }
 
