@@ -14,6 +14,10 @@ header{
     font-family: "fuggles","festive", "cursive";
     font-size: 2rem;
 }
+
+#headerHeigth{
+    height: 100px;
+}
 header .container-fluid{
     padding: 25px;
 }
@@ -23,7 +27,7 @@ header #menu{
 }
 
 #nav-bartitle{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 
@@ -57,6 +61,11 @@ header #menu{
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
     font-size: 25px;
+}
+
+#blogtitle{
+    font-family: "fuggles","festive", "cursive";
+    font-size: 5rem;
 }
 
 #healthysnacks{
@@ -144,8 +153,8 @@ header #menu{
     
     border-top: 10px solid white;
     border-bottom: 10px solid white;
-    border-left: 50px solid white;
-    border-right: 50px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
     margin-top: 15px;
     box-shadow: 5px 5px 10px black;
     margin: auto;
@@ -153,7 +162,7 @@ header #menu{
 }
 
 .carousel-inner{
-    max-height: 400px;
+    max-height: 500px;
     
 }
 .carousel-inner img{
@@ -164,20 +173,11 @@ header #menu{
 
 
 
+
+
+
 /*about me page*/
 
-/* created new about me page old code from old about me page
-#mainabout{
-    background-image: url(../Resources/Images/stripaboutme.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 55% 30%;
-    border: 4px solid white;
-    position: relative;
-    top: 50px;
-   }
-   */
 
 #mainbody{
     
@@ -210,38 +210,6 @@ header #menu{
 
 /*body section*/
 
-/* old about me page
-#aboutimgdiv{
-    padding:50px 0;
-}
-
-#aboutmeimg{
-    width: 100%;
-    
-    border-radius: 3%;
-    box-shadow: 5px 5px 10px black;
-   
-}
-
-#aboutmepara{
-    padding-top: 25px;
-    font-size: 30px;
-    
-
-}
-*/
-
-/*Family page*/
-/* removed family page
-#mainfamily{
-    background-image: url(../Resources/Images/vegasbackground.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
-    border: 4px solid white;
-    position: relative;
-   
-}
-*/
 
 /* new about me page*/
 
@@ -369,6 +337,12 @@ header #menu{
     color: white;
     box-shadow: 5px 5px 10px black;
     padding: 50px 0;
+    
+}
+
+#titlefont{
+    font-family: "fuggles","festive", "cursive";
+    font-size: 3rem;
 }
 /*footer section*/
 
