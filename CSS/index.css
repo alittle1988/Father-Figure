@@ -14,7 +14,10 @@ header{
     font-family: "fuggles","festive", "cursive";
     font-size: 2rem;
 }
-
+#titlecolor{
+    color: black;
+    text-decoration: none;
+}
 #headerHeigth{
     height: 100px;
 }
@@ -121,10 +124,10 @@ header #menu{
 
 #dadtime{
     border: 10px solid white;
-    background-image: url(../Resources/Images/dadtime.jpeg);
+    background-image: url(../Resources/Images/Weekly\ Activities.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:0 25%;
+    background-position:center;
     color: white;
     padding: 50px 0;
     box-shadow: 5px 5px 10px black;
