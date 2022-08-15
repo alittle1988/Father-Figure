@@ -1,0 +1,126 @@
+header{
+    border: 4px solid white;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    font-family: "fuggles","festive", "cursive";
+    font-size: 2rem;
+}
+#titlecolor{
+    color: black;
+    text-decoration: none;
+}
+#headerHeigth{
+    height: 100px;
+}
+header .container-fluid{
+    padding: 25px;
+}
+header #menu{
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+#nav-bartitle{
+    font-size: 4rem;
+}
+
+
+
+@media only screen and (max-width:768px){
+    #navmobile li{
+        display: none;
+    }
+}
+
+
+#mainblog{
+    background-color: rgb(203, 224, 248);
+    border: 4px solid white;
+    position: relative;
+    top: 106px;
+   
+}
+#titlefont{
+    font-family: "fuggles","festive", "cursive";
+    font-size: 3rem;
+}
+
+#blogpagediv{
+    padding-top: 25px;
+}
+
+#blogpage{
+    background-image: url(../Resources/Images/pencil.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -30%  45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 25px 0;
+
+    
+   
+}
+
+#theblog{
+    background-image: url(../Resources/Images/the\ blog\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 15px;
+    font-size: 25px;
+}
+
+#linkgone{
+    pointer-events: auto;
+}
+
+#blogs{
+    background-image: url(../Resources/Images/grandfatherclock.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 0;
+}
+
+#theLineUp {
+    background-image: url(../Resources/Images/dadtime2.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border: 10px solid white;
+    margin: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px 0;
+    
+}
+
+/* footer section */
+
+footer{
+    
+    height: 50px;
+    background-color: #f8f9fa;
+    border: 4px solid white;
+    
+}
+
+footer p{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+footer i{
+    padding:17px 10px 0 0
+}

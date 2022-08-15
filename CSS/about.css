@@ -1,0 +1,108 @@
+header{
+    border: 4px solid white;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    font-family: "fuggles","festive", "cursive";
+    font-size: 2rem;
+}
+#titlecolor{
+    color: black;
+    text-decoration: none;
+}
+#headerHeigth{
+    height: 100px;
+}
+header .container-fluid{
+    padding: 25px;
+}
+header #menu{
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+#nav-bartitle{
+    font-size: 4rem;
+}
+
+
+
+@media only screen and (max-width:768px){
+    #navmobile li{
+        display: none;
+    }
+}
+
+
+/*about me page*/
+
+
+#mainbody{
+    
+    border: 4px solid white;
+    position: relative;
+    top:106px;
+}
+
+ #mainabout2{
+     background-image: url(../Resources/Images/family.jpeg);
+     height: 450px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: white;
+     text-shadow: 3px 3px black;
+    
+ }
+
+    /*jumbotron section*/
+
+
+
+#aboutmeP{
+    text-shadow: 3px 3px black;
+    padding: 50px 0;
+    
+}
+
+
+/*body section*/
+
+
+/* new about me page*/
+
+#aboutmetitle{
+    margin-top: 30px;
+}
+
+#aboutmeimg2{
+    width: 50%;
+    box-shadow: 5px 5px 10px black;
+    border: 10px solid white;
+}
+
+#aboutmep2{
+    margin-top: 25px;
+    width: 50%;
+    
+}
+
+/* footer Section */
+footer{
+    
+    height: 50px;
+    background-color: #f8f9fa;
+    border: 4px solid white;
+    
+}
+
+footer p{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+footer i{
+    padding:17px 10px 0 0
+}
