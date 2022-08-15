@@ -35,7 +35,7 @@ journey they call father hood. From the ups, downs, ins and outs, the good days,
               daughters hair to the last time.  The two thing that makes me feel the best. Is the moment they ask for 
               dad to do their hair and the smile it puts on their face.  As well as knowing that  Not to mention the 
               your’re the best daddy ever I get from my little girls. My advice to all the dads out there is just try. 
-              You’ll get better. You never really know how much of an impact your perfect braid can have.`, img: 'url(/Resources/Images/kids/F3ADA3FE-E7F2-4599-BA63-A49195D6D608.jpeg)'}];
+              You’ll get better. You never really know how much of an impact your perfect braid can have.`}];
 
 
 const titleFont = document.querySelector('.blogtitle')
@@ -47,26 +47,12 @@ const perfectBraid = document.querySelector('#perfectBraid');
 firstBlog.addEventListener('click', function() {
     titleFont.textContent = blogs[0].name
     blogContent.textContent = blogs[0].content
-    document.querySelector('#theblog').style.backgroundImage = ' url(../Resources/Images/the\ blog\ bg.jpeg)'
+    
     
 })
 
 perfectBraid.addEventListener('click', function () {
     titleFont.textContent = blogs[1].name
     blogContent.textContent = blogs[1].content
-    document.querySelector('#theblog').style.backgroundImage = blogs[1].img
+    
 })
-
-const myFirstBlogText = `Hello world, My name is Andrew and this is my first blog.  I recently decided to start a blog about being a dad.  Something I could turn to to express my feelings, experiences, and just every day activities that I go through being a dad. As a dad most people look at you as the macho man. The one who’s supposed to teach you how to be rough, tough, wipe the dirt off, no crying, hard knocks type of stuff. I can tell you first hand that being a dad is waaaaayy more intense.  Not only is it the most exciting, fun, gratifying thing I have ever done.  It is also the most exhausting, draining, frustrating thing in 
-   the world!  I have gone from thinking I’m doing every thing right to everything wrong in a matter of minutes. 
-   Before I get into the in’s and out’s of my life let me tell you a little bit about myself.  Im a 32 years old 
-   loving husband and father of 3.   I have a boy my oldest Aspen. He is 5 and a half and has more energy than God 
-   put on this planet.   He likes to solve puzzles, play catch, camp, and pretty much anything that has to do with 
-   his dad. I also have two little girls.  Autumn and AJ are 3 and a half year old identical twins. They are their 
-   own Ying and Yang as well as  their dads whole heart. Autumn is the shy, sweet, ill melt your heart type of gal.  
-   AJ is the sneaky, I know how to get what I want, I love you type of gal. Then there is the Mrs.  she is the real MVP.  
-   Not only does she have to help raise these 3 crazy kids but put up with my shenanigans at the same time. Im sure 
-   we will dig a bit deeper into all of our personality’s as I continue to update and add new content.  I currently 
-   am a Busser at a restaurant in Las Vegas NV.   I like to stay active as well as keep my kids active as fitness and 
-   eating healthy is a big and important part of life. In this blog I will be bringing you guys along with me on this 
-   journey they call father hood. From the ups, downs, ins and outs, the good days, bad days, and everything in-between.`

@@ -44,7 +44,7 @@ header #menu{
 }
 #titlefont{
     font-family: "fuggles","festive", "cursive";
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 #blogpagediv{
@@ -67,7 +67,7 @@ header #menu{
 }
 
 #theblog{
-    background-image: url(../Resources/Images/the\ blog\ bg.jpeg);
+    background-color: rgb(143, 152, 161);
     background-repeat: no-repeat;
     background-size: cover;
     border: 10px solid white;
@@ -91,7 +91,9 @@ header #menu{
     color: white;
     box-shadow: 5px 5px 10px black;
     padding: 50px 0;
+    display: block;
 }
+
 
 #theLineUp {
     background-image: url(../Resources/Images/dadtime2.jpeg);
@@ -102,7 +104,31 @@ header #menu{
     color: white;
     box-shadow: 5px 5px 10px black;
     padding: 50px 0;
-    
+    display: block;
+}
+
+@media only screen and (max-width: 950px) {
+    .blogs {
+        display: flex;
+    }
+    #blogs {
+        width: 50%;
+    }
+    #theLineUp {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .blogs {
+        display: block;
+    }
+    #blogs {
+        width: auto;
+    }
+    #theLineUp {
+        width: auto;
+    }
 }
 
 /* footer section */
